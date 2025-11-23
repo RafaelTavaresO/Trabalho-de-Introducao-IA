@@ -414,6 +414,10 @@ def ordena_valores_dominios(var, visitados, grafo):
 
                 if not (rest[0] == "capacidade" or rest[0] == "SEM_DUPLICIDADE"):
                     contador += verifica_conflitos(var, valor, rest, grafo)
+        
+        if valor == "S1" or valor == "H1":
+            contador += 2
+        print(valor, contador)
 
         return contador
     

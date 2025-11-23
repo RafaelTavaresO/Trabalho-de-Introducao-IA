@@ -1,0 +1,34 @@
+Instancia Medio
+
+
+Sem MRV e LCV:
+
+Solucao:
+   V2: S1
+   V5: H1
+   V4: H2
+   V1: S2
+   V3: S1
+
+Nos: 6
+Falhas: 0
+
+Tempo 20.60 ms
+Custo = 0
+
+
+Sem LCV e com MRV:
+
+Solucao:
+   V1: S1
+   V4: H2
+   V2: S2
+   V5: H1
+   V3: S1
+
+Nos: 6
+Falhas: 0
+
+Tempo 22.14 ms
+Custo = 0
+

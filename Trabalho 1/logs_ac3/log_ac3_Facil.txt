@@ -1,0 +1,161 @@
+
+\Execucao 6:
+Execucao 1
+Fila:
+Restricao 1 - ['IF', ['V4', 'V5', 'V1', 'V2'], '#H']
+Restricao 2 - ['IF', ['V5', 'V4', 'V1', 'V2'], '#H']
+Restricao 3 - ['IF', ['V4', 'V5', 'V2', 'V1'], '#H']
+Restricao 4 - ['IF', ['V5', 'V4', 'V2', 'V1'], '#H']
+Restricao 5 - ['IF', ['V1', 'V2', 'V4', 'V5'], '#H']
+Restricao 6 - ['IF', ['V1', 'V2', 'V5', 'V4'], '#H']
+Restricao 7 - ['IF', ['V2', 'V1', 'V4', 'V5'], '#H']
+Restricao 8 - ['IF', ['V2', 'V1', 'V5', 'V4'], '#H']
+Restricao 9 - ['capacidade', ['V1', 'A'], '#H']
+Restricao 10 - ['capacidade', ['V2', 'B'], '#H']
+Restricao 11 - ['diferenca', ['V4', 'V5'], '#H']
+Restricao 12 - ['diferenca', ['V5', 'V4'], '#H']
+Restricao 13 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
+Restricao 14 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
+
+
+Execucao 2
+Fila:
+Restricao 1 - ['IF', ['V5', 'V4', 'V1', 'V2'], '#H']
+Restricao 2 - ['IF', ['V4', 'V5', 'V2', 'V1'], '#H']
+Restricao 3 - ['IF', ['V5', 'V4', 'V2', 'V1'], '#H']
+Restricao 4 - ['IF', ['V1', 'V2', 'V4', 'V5'], '#H']
+Restricao 5 - ['IF', ['V1', 'V2', 'V5', 'V4'], '#H']
+Restricao 6 - ['IF', ['V2', 'V1', 'V4', 'V5'], '#H']
+Restricao 7 - ['IF', ['V2', 'V1', 'V5', 'V4'], '#H']
+Restricao 8 - ['capacidade', ['V1', 'A'], '#H']
+Restricao 9 - ['capacidade', ['V2', 'B'], '#H']
+Restricao 10 - ['diferenca', ['V4', 'V5'], '#H']
+Restricao 11 - ['diferenca', ['V5', 'V4'], '#H']
+Restricao 12 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
+Restricao 13 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
+
+
+Execucao 3
+Fila:
+Restricao 1 - ['IF', ['V4', 'V5', 'V2', 'V1'], '#H']
+Restricao 2 - ['IF', ['V5', 'V4', 'V2', 'V1'], '#H']
+Restricao 3 - ['IF', ['V1', 'V2', 'V4', 'V5'], '#H']
+Restricao 4 - ['IF', ['V1', 'V2', 'V5', 'V4'], '#H']
+Restricao 5 - ['IF', ['V2', 'V1', 'V4', 'V5'], '#H']
+Restricao 6 - ['IF', ['V2', 'V1', 'V5', 'V4'], '#H']
+Restricao 7 - ['capacidade', ['V1', 'A'], '#H']
+Restricao 8 - ['capacidade', ['V2', 'B'], '#H']
+Restricao 9 - ['diferenca', ['V4', 'V5'], '#H']
+Restricao 10 - ['diferenca', ['V5', 'V4'], '#H']
+Restricao 11 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
+Restricao 12 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
+
+
+Execucao 4
+Fila:
+Restricao 1 - ['IF', ['V5', 'V4', 'V2', 'V1'], '#H']
+Restricao 2 - ['IF', ['V1', 'V2', 'V4', 'V5'], '#H']
+Restricao 3 - ['IF', ['V1', 'V2', 'V5', 'V4'], '#H']
+Restricao 4 - ['IF', ['V2', 'V1', 'V4', 'V5'], '#H']
+Restricao 5 - ['IF', ['V2', 'V1', 'V5', 'V4'], '#H']
+Restricao 6 - ['capacidade', ['V1', 'A'], '#H']
+Restricao 7 - ['capacidade', ['V2', 'B'], '#H']
+Restricao 8 - ['diferenca', ['V4', 'V5'], '#H']
+Restricao 9 - ['diferenca', ['V5', 'V4'], '#H']
+Restricao 10 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
+Restricao 11 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
+
+
+Execucao 5
+Fila:
+Restricao 1 - ['IF', ['V1', 'V2', 'V4', 'V5'], '#H']
+Restricao 2 - ['IF', ['V1', 'V2', 'V5', 'V4'], '#H']
+Restricao 3 - ['IF', ['V2', 'V1', 'V4', 'V5'], '#H']
+Restricao 4 - ['IF', ['V2', 'V1', 'V5', 'V4'], '#H']
+Restricao 5 - ['capacidade', ['V1', 'A'], '#H']
+Restricao 6 - ['capacidade', ['V2', 'B'], '#H']
+Restricao 7 - ['diferenca', ['V4', 'V5'], '#H']
+Restricao 8 - ['diferenca', ['V5', 'V4'], '#H']
+Restricao 9 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
+Restricao 10 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
+
+
+Execucao 6
+Fila:
+Restricao 1 - ['IF', ['V1', 'V2', 'V5', 'V4'], '#H']
+Restricao 2 - ['IF', ['V2', 'V1', 'V4', 'V5'], '#H']
+Restricao 3 - ['IF', ['V2', 'V1', 'V5', 'V4'], '#H']
+Restricao 4 - ['capacidade', ['V1', 'A'], '#H']
+Restricao 5 - ['capacidade', ['V2', 'B'], '#H']
+Restricao 6 - ['diferenca', ['V4', 'V5'], '#H']
+Restricao 7 - ['diferenca', ['V5', 'V4'], '#H']
+Restricao 8 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
+Restricao 9 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
+
+
+Execucao 7
+Fila:
+Restricao 1 - ['IF', ['V2', 'V1', 'V4', 'V5'], '#H']
+Restricao 2 - ['IF', ['V2', 'V1', 'V5', 'V4'], '#H']
+Restricao 3 - ['capacidade', ['V1', 'A'], '#H']
+Restricao 4 - ['capacidade', ['V2', 'B'], '#H']
+Restricao 5 - ['diferenca', ['V4', 'V5'], '#H']
+Restricao 6 - ['diferenca', ['V5', 'V4'], '#H']
+Restricao 7 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
+Restricao 8 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
+
+
+Execucao 8
+Fila:
+Restricao 1 - ['IF', ['V2', 'V1', 'V5', 'V4'], '#H']
+Restricao 2 - ['capacidade', ['V1', 'A'], '#H']
+Restricao 3 - ['capacidade', ['V2', 'B'], '#H']
+Restricao 4 - ['diferenca', ['V4', 'V5'], '#H']
+Restricao 5 - ['diferenca', ['V5', 'V4'], '#H']
+Restricao 6 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
+Restricao 7 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
+
+
+Execucao 9
+Fila:
+Restricao 1 - ['capacidade', ['V1', 'A'], '#H']
+Restricao 2 - ['capacidade', ['V2', 'B'], '#H']
+Restricao 3 - ['diferenca', ['V4', 'V5'], '#H']
+Restricao 4 - ['diferenca', ['V5', 'V4'], '#H']
+Restricao 5 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
+Restricao 6 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
+
+
+Execucao 10
+Fila:
+Restricao 1 - ['capacidade', ['V2', 'B'], '#H']
+Restricao 2 - ['diferenca', ['V4', 'V5'], '#H']
+Restricao 3 - ['diferenca', ['V5', 'V4'], '#H']
+Restricao 4 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
+Restricao 5 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
+
+
+Execucao 11
+Fila:
+Restricao 1 - ['diferenca', ['V4', 'V5'], '#H']
+Restricao 2 - ['diferenca', ['V5', 'V4'], '#H']
+Restricao 3 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
+Restricao 4 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
+
+
+Execucao 12
+Fila:
+Restricao 1 - ['diferenca', ['V5', 'V4'], '#H']
+Restricao 2 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
+Restricao 3 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
+
+
+Execucao 13
+Fila:
+Restricao 1 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
+Restricao 2 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
+
+
+Execucao 14
+Fila:
+Restricao 1 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
