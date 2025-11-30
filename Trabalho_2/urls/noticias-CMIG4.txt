@@ -1,0 +1,29 @@
+1 - https://www.infomoney.com.br/mercados/cemig-cmig4-justica-anula-venda-de-15-usinas-da-companhia - label: 0
+
+2 - https://www.infomoney.com.br/mercados/cemig-cmig4-levanta-r-1895-bi-via-debentures - label: 1
+
+3 - https://www.infomoney.com.br/mercados/cemig-cmig5-resultados-primeiro-trimestre-2025 - label: 0
+
+4 - https://www.infomoney.com.br/mercados/justica-de-mg-suspende-liminar-que-anulava-venda-de-pequenas-usinas-da-cemig-a-ambar - label: 1
+
+5 - https://www.infomoney.com.br/mercados/aneel-propoe-indenizacao-para-eletricas-maior-que-previsto-veja-quais-acoes-ganham - label: 1
+
+6 - https://www.infomoney.com.br/mercados/cemig-cmig4-adquire-transmissora-no-vale-do-aco-por-r-30-milhoes - label: 1
+
+7 - https://www.infomoney.com.br/mercados/cemig-cmig4-com-alta-de-541-em-2025-confira-o-que-esperar-pela-analise-tecnica - label: 1
+
+8 - https://www.infomoney.com.br/mercados/cemig-cmig4-recua-apos-maxima-historica-correcao-ou-chance-de-entrada/ - label: 0
+
+9 - https://www.infomoney.com.br/mercados/qual-o-saldo-da-temporada-de-resultados-do-3t25-veja-destaques-positivos-e-negativos/ - label: 0
+
+10 - https://www.infomoney.com.br/mercados/morgan-stanley-segue-pessimista-com-cemig-cmig4-apesar-de-plano-bilionario-entenda - label: 0
+
+11 - https://www.infomoney.com.br/mercados/cemig-cmig4-tem-rating-elevado-para-aaa-pela-moodys-com-perspectiva-estavel - label: 1
+
+12 - https://www.infomoney.com.br/mercados/grupo-mateus-yduqs-azul-cemig-irb-por-que-as-acoes-caem-forte-apos-os-balancos-3t25 - label: 0
+
+13 - https://www.infomoney.com.br/mercados/cemig-cmig4-tem-queda-de-757-no-lucro-do-3o-tri - label: 0
+
+14 - https://www.infomoney.com.br/mercados/reforma-do-setor-eletrico-relator-exclui-ponto-controverso-que-abalou-acoes-na-b3 - label: 0
+
+15 - https://www.infomoney.com.br/mercados/tjmg-suspende-obrigacao-de-cemig-cmig4-depositar-r-912-mi-para-deficit-da-forluz - label: 1

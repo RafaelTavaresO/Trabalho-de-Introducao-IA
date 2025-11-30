@@ -1,0 +1,29 @@
+1 - https://www.infomoney.com.br/mercados/copel-bba-reitera-compra-com-foco-em-dividendos-robustos-e-gatilhos-de-curto-prazo - label: 1
+
+2 - https://www.infomoney.com.br/mercados/copel-cple6-aprova-nova-politica-de-dividendos - label: 0
+
+3 - https://www.infomoney.com.br/mercados/copel-cple6-resultados-primeiro-trimestre-2025 - label: 1
+
+4 - https://www.infomoney.com.br/mercados/mercado-fio-da-distribuicao-da-copel-sobe-33-no-1o-tri - label: 1
+
+5 - https://www.infomoney.com.br/mercados/como-a-migracao-da-copel-para-o-novo-mercado-pode-ser-catalisador-para-as-acoes - label: 1
+
+6 - https://www.infomoney.com.br/mercados/goldman-ve-acoes-de-utilities-com-valuation-atrativo-apesar-de-rali-veja-preferidas - label: 1
+
+7 - https://www.infomoney.com.br/mercados/aneel-propoe-indenizacao-para-eletricas-maior-que-previsto-veja-quais-acoes-ganham - label: 1
+
+8 - https://www.infomoney.com.br/onde-investir/as-acoes-que-pagam-dividendos-para-comprar-em-agosto-segundo-especialistas - label: 1
+
+9 - https://www.infomoney.com.br/mercados/tarifa-social-de-energia-como-afeta-as-distribuidoras-de-energia-listadas-na-b3 - label: 1
+
+10 - https://www.infomoney.com.br/mercados/copel-cple6-conclui-aquisicao-da-usina-baixo-iguacu-da-neoenergia-por-r-105-bi - label: 0
+
+11 - https://www.infomoney.com.br/mercados/apos-forte-alta-e-hora-de-vender-acoes-utilities-na-b3-santander-ainda-ve-oportunidades - label: 0
+
+12 - https://www.infomoney.com.br/mercados/copel-cple6-em-alta-e-marfrig-mbrf3-em-baixa-o-que-explica-esses-movimentos - label: 1
+
+13 - https://www.infomoney.com.br/mercados/copel-cple6-conclui-venda-da-usina-hidreletrica-baixo-iguacu-por-r-1683-bi - label: 1
+
+14 - https://www.infomoney.com.br/onde-investir/de-banco-a-seguradora-as-cinco-acoes-de-dividendos-mais-indicadas-para-outubro - label: 1
+
+15 - https://www.infomoney.com.br/mercados/quais-acoes-de-eletricas-podem-ganhar-com-novas-diretrizes-para-leilao-de-capacidade - label: 1

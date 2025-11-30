@@ -1,5 +1,0 @@
-Titulo: Paranaense de Energia: Q3 Earnings Snapshot
-Data: 2025-11-13
-Conteudo: ['curitiba', 'brazil', 'ap', 'curitiba', 'brazil', 'ap', 'companhia', 'paranaense', 'de', 'energia', 'elp', 'on', 'thursday', 'reported', 'net', 'income', 'of', '67', '1', 'million', 'in', 'its', 'third', 'quarter', 'the', 'curitiba', 'brazil', 'based', 'company', 'said', 'it', 'had', 'profit', 'of', '2', 'cents', 'per', 'share', 'the', 'power', 'company', 'posted', 'revenue', 'of', '1', '25', 'billion', 'in', 'the', 'period', '', 'this', 'story', 'was', 'generated', 'byautomated', 'insights', 'http', 'automatedinsights', 'com', 'ap', 'using', 'data', 'from', 'zacks', 'investment', 'research', 'access', 'azacks', 'stock', 'report', 'on', 'elpat', 'https', 'www', 'zacks', 'com', 'ap', 'elp']
-URL: https://finance.yahoo.com/news/paranaense-energia-q3-earnings-snapshot-102154591.html
-Fonte: YahooFinance
