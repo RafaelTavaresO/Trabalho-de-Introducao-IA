@@ -78,5 +78,6 @@ def verificacao_noticias(id_empresa):
         return noticias
     except Exception as e:
         print(f"ERRO: Nao foi possivel categorizar as noticias de {id_empresa}. {e}.\n")
+        return None
 
 

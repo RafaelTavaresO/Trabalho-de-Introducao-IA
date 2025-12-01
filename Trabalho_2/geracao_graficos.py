@@ -98,11 +98,12 @@ def graficos(id_empresa):
     plt.savefig(f"graficos/{id_empresa}-POS_x_Varia_Dia_2_Depois.png", dpi=300, bbox_inches="tight")
     plt.close()
 
-    print(f"Dia Atual:\n\tPRE: {corr_dia_PRE}\n\tPOS: {corr_dia_POS}\n")
-    print(f"Dia 1 antes:\n\tPRE: {corr_1_dia_a_PRE}\n\tPOS: {corr_1_dia_a_POS}\n")
-    print(f"Dia 1 depois:\n\tPRE: {corr_1_dia_d_PRE}\n\tPOS: {corr_1_dia_d_POS}\n")
-    print(f"Dia 2 antes:\n\tPRE: {corr_2_dia_a_PRE}\n\tPOS: {corr_2_dia_a_POS}\n")
-    print(f"Dia 2 depois:\n\tPRE: {corr_2_dia_d_PRE}\n\tPOS: {corr_2_dia_d_POS}\n")
+    with open(f"correlacoes_txt/correlacao_{id_empresa}.txt", "w") as arq:
+        arq.write(f"Dia Atual:\n\tPRE: {corr_dia_PRE}\n\tPOS: {corr_dia_POS}\n\n")
+        arq.write(f"Dia 1 antes:\n\tPRE: {corr_1_dia_a_PRE}\n\tPOS: {corr_1_dia_a_POS}\n\n")
+        arq.write(f"Dia 1 depois:\n\tPRE: {corr_1_dia_d_PRE}\n\tPOS: {corr_1_dia_d_POS}\n\n")
+        arq.write(f"Dia 2 antes:\n\tPRE: {corr_2_dia_a_PRE}\n\tPOS: {corr_2_dia_a_POS}\n\n")
+        arq.write(f"Dia 2 depois:\n\tPRE: {corr_2_dia_d_PRE}\n\tPOS: {corr_2_dia_d_POS}\n\n")
 
 print("Graficos: \n")
 for id in ["CMIG4", "CPLE6", "SBSP3"]:

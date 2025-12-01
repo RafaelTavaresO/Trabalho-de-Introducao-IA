@@ -45,12 +45,12 @@ def salvar_noticias_csv(lista_noticias, caminho):
     print(f"Arquivo salvo em {caminho}\n")
 
 def analisar_empresa(id_empresa):
+    noticias = verificacao_noticias(id_empresa)
+
     df = pd.read_csv(f"historicos_csv/{id_empresa}.SA_historico.csv", parse_dates=["Date"])
     df["Date"] = df["Date"].dt.tz_localize(None) 
 
     #print(df["Date"])
-
-    noticias = verificacao_noticias(id_empresa)
 
     lista_dados = []
 
@@ -93,11 +93,11 @@ def analisar_empresa(id_empresa):
 
             #print(f"{linha_dia} |\n {linha_1_anterior} |\n {linha_1_posterior}\n")
 
-            varia_dia = float(linha_dia["Open"]) - float(linha_dia["Close"])
-            varia_1_dia_antes = float(linha_1_anterior["Open"]) - float(linha_1_anterior["Close"])
-            varia_1_dia_depois = float(linha_1_posterior["Open"]) - float(linha_1_posterior["Close"])
-            varia_2_dias_antes = float(linha_2_anterior["Open"]) - float(linha_2_anterior["Close"])
-            varia_2_dias_depois = float(linha_2_posterior["Open"]) - float(linha_2_posterior["Close"])
+            varia_dia = float(linha_dia["Close"]) - float(linha_dia["Open"])
+            varia_1_dia_antes = float(linha_1_anterior["Close"]) - float(linha_1_anterior["Open"])
+            varia_1_dia_depois = float(linha_1_posterior["Close"]) - float(linha_1_posterior["Open"])
+            varia_2_dias_antes = float(linha_2_anterior["Close"]) - float(linha_2_anterior["Open"])
+            varia_2_dias_depois = float(linha_2_posterior["Close"]) - float(linha_2_posterior["Open"])
 
             #print(f"Varia_dia: {varia_dia} | Varia_1_dia_antes: {varia_1_dia_antes} | Varia_1_dia_depois: {varia_1_dia_depois}\n")
 

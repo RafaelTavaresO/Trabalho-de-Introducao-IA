@@ -236,34 +236,14 @@ def carregar_noticias(id_empresa):
 
     noticias_dados = []
 
-    i = 1
-    with open(f"{id_empresa}_noticias.txt", "w", encoding="utf-8") as arq:
-        for noticia in noticias:
-            #print(f"\nNº{i} - Notícia: {noticia.url}")
-            try: 
-                noticia = scrape_infomoney(noticia)
-                noticias_dados.append(noticia)
+    for noticia in noticias:
+        try: 
+            noticia = scrape_infomoney(noticia)
+            noticias_dados.append(noticia)
 
-                #print(f"Coletado: {noticia.titulo}")   
-                
-                arq.write(f"ID: {noticia.id_noticia}\n")
-                arq.write(f"Titulo: {noticia.titulo}\n")
-                arq.write(f"Data: {noticia.data}\n")
-                arq.write(f"Conteudo PRE: {noticia.conteudo_PRE}\n")
-                arq.write(f"Conteudo POS: {noticia.conteudo_POS}\n")
-                arq.write(f"URL: {noticia.url}\n")
-                arq.write(f"Fonte: {noticia.fonte}\n")
-                arq.write(f"Label: {noticia.label}")
-
-                arq.write("\n\n")
-
-
-            except Exception as e:
-                print(f"Erro ao coletar {noticia.titulo} {e}")
-            
-            i+=1
-
-
+        except Exception as e:
+            print(f"Erro ao coletar {noticia.titulo} {e}")
+        
     salvar_noticias_csv(noticias_dados, f"noticias_csv/noticias{id_empresa}.csv", id_empresa)
     return noticias_dados
 
